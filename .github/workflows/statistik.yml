@@ -1,0 +1,26 @@
+# Erzeugt die Profil-Diagramme (assets/*.svg) jeden Montag neu und committet sie, wenn sich etwas geändert hat.
+name: Statistik aktualisieren
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  statistik:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Diagramme erzeugen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/statistik.py
+      - name: Committen, falls geändert
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || (git commit -m "Statistik aktualisiert" && git push)
