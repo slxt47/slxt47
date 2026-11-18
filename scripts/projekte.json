@@ -1,0 +1,73 @@
+{
+  "_hinweis": "Symbol, Kurztext (überschreibt die Repo-Beschreibung) und Doku-Link je Repo. Neue öffentliche Repos mit Beschreibung erscheinen automatisch (Symbol 📦) – hier nur eintragen, wenn es schöner werden soll. 'ausblenden' = nie zeigen.",
+  "anzahl": 12,
+  "ausblenden": [
+    "slxt47",
+    "ios-app",
+    "lab-test",
+    "discord-python",
+    "checkIfAMD"
+  ],
+  "repos": {
+    "share": {
+      "symbol": "📤",
+      "text": "Dateien Ende-zu-Ende verschlüsselt teilen – Link oder QR-Code, Anmeldung mit E-Mail-Code, 1 GB gratis – Python · Web Crypto",
+      "mehr": "https://doc.slxt.dev/projekte/share/"
+    },
+    "qr-stream": {
+      "symbol": "📡",
+      "text": "Datei als verschlüsselte QR-Folge von Gerät zu Gerät – nur über die Kamera, Fountain-Code, PWA – JavaScript",
+      "mehr": "https://doc.slxt.dev/projekte/qr-stream/"
+    },
+    "disslxt": {
+      "symbol": "💬",
+      "text": "Eigene Chat-Plattform im Stil von Discord: Server, Kanäle, Anrufe, Freunde und Gruppen – TypeScript",
+      "mehr": "https://doc.slxt.dev/disslxt/"
+    },
+    "zenit": {
+      "symbol": "🌅",
+      "mehr": "https://doc.slxt.dev/projekte/zenit/"
+    },
+    "nimbus": {
+      "symbol": "🌦️",
+      "mehr": "https://doc.slxt.dev/projekte/nimbus/"
+    },
+    "LinuxCommandCenter": {
+      "symbol": "🖥️"
+    },
+    "nexus": {
+      "symbol": "🌌",
+      "text": "Eigenes Microblogging: Posts, Hashtags, DMs, live per SSE, hell/dunkel – React · Express · PostgreSQL",
+      "mehr": "https://doc.slxt.dev/projekte/nexus/"
+    },
+    "webshop": {
+      "symbol": "🛍️",
+      "text": "Dienstleistungen buchen ohne Konto, Bezahlung in Krypto, PDF-Rechnungen – Express · PostgreSQL",
+      "mehr": "https://doc.slxt.dev/projekte/webshop/"
+    },
+    "socials": {
+      "symbol": "✨"
+    },
+    "port_apple": {
+      "symbol": "🍎",
+      "text": "Mein Portfolio slxt.dev im Apple-Stil"
+    },
+    "billing-web": {
+      "symbol": "🧾"
+    },
+    "roboterarm": {
+      "symbol": "🦾",
+      "text": "3D-gedruckter Roboterarm (EEZYbotARM MK2) mit Arduino und PS2-Gamepad – C++"
+    },
+    "nextcloud": {
+      "symbol": "☁️",
+      "text": "Selbst gehostete Nextcloud mit Datenbank, Redis, Cron und Collabora Online – Docker Compose"
+    },
+    "aio_openwebui": {
+      "symbol": "🤖"
+    },
+    "pdf_view": {
+      "symbol": "📄"
+    }
+  }
+}

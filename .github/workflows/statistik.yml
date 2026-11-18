@@ -1,13 +1,19 @@
-# Erzeugt die Profil-Diagramme (assets/*.svg) jeden Montag neu und committet sie, wenn sich etwas geändert hat.
-name: Statistik aktualisieren
+# Hält das Profil aktuell: jeden Tag Diagramme (assets/*.svg) und Projekt-Tabelle im README neu erzeugen,
+# committen nur, wenn sich etwas geändert hat. Manuell: Actions → „Profil aktualisieren“ → Run workflow.
+name: Profil aktualisieren
 on:
   schedule:
-    - cron: "17 5 * * 1"
+    - cron: "17 5 * * *"
   workflow_dispatch:
+  push:
+    paths: ["scripts/**", ".github/workflows/statistik.yml"]
 permissions:
   contents: write
+concurrency:
+  group: profil
+  cancel-in-progress: false
 jobs:
-  statistik:
+  profil:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,9 +24,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/statistik.py
+      - name: Projekt-Tabelle erzeugen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/projekte.py
       - name: Committen, falls geändert
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
-          git diff --cached --quiet || (git commit -m "Statistik aktualisiert" && git push)
+          git add assets README.md
+          git diff --cached --quiet || (git commit -m "Profil aktualisiert" && git push)
