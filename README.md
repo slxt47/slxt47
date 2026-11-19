@@ -17,18 +17,18 @@ im selben Design: Himmel-Verlauf, Glas, Violett. Hier liegt der Code, die Geschi
 <!-- PROJEKTE:START -->
 | | Projekt | Worum es geht |
 |---|---|---|
+| 📦 | **[command-center](https://github.com/slxt47/command-center)** | Linux-Server im Browser verwalten: Docker, VMs, Terminal mit Tabs, Gruppen & Rechte, Angriffs-Radar. Installation mit einer Zeile. – Python · [live](https://commandcenter.slxt.dev) |
+| 🌦️ | **[nimbus](https://github.com/slxt47/nimbus)** | Nimbus – Wetter jetzt, 24 Stunden und 14 Tage im slxt-Design (weather.slxt.org) – JavaScript · [live](https://weather.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nimbus/) |
+| 🌌 | **[nexus](https://github.com/slxt47/nexus)** | Eigenes Microblogging: Posts, Hashtags, DMs, live per SSE, hell/dunkel – React · Express · PostgreSQL · [live](https://nexus.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nexus/) |
+| 🍎 | **[port_apple](https://github.com/slxt47/port_apple)** | Mein Portfolio slxt.dev im Apple-Stil · [live](https://slxt.dev) |
 | 📤 | **[share](https://github.com/slxt47/share)** | Dateien Ende-zu-Ende verschlüsselt teilen – Link oder QR-Code, Anmeldung mit E-Mail-Code, 1 GB gratis – Python · Web Crypto · [live](https://share.slxt.dev) · [mehr](https://doc.slxt.dev/projekte/share/) |
 | 📡 | **[qr-stream](https://github.com/slxt47/qr-stream)** | Datei als verschlüsselte QR-Folge von Gerät zu Gerät – nur über die Kamera, Fountain-Code, PWA – JavaScript · [live](https://qr.slxt.dev) · [mehr](https://doc.slxt.dev/projekte/qr-stream/) |
 | 💬 | **[disslxt](https://github.com/slxt47/disslxt)** | Eigene Chat-Plattform im Stil von Discord: Server, Kanäle, Anrufe, Freunde und Gruppen – TypeScript · [live](https://disslxt-info.slxt.org) · [mehr](https://doc.slxt.dev/disslxt/) |
 | 🖥️ | **[LinuxCommandCenter](https://github.com/slxt47/LinuxCommandCenter)** | Server-Dashboard: Docker, VMs, Terminal, Rollen und Schutz-Paket (fail2ban, IDS) – Python |
-| 🍎 | **[port_apple](https://github.com/slxt47/port_apple)** | Mein Portfolio slxt.dev im Apple-Stil · [live](https://slxt.dev) |
-| 🌦️ | **[nimbus](https://github.com/slxt47/nimbus)** | Nimbus – Wetter jetzt, 24 Stunden und 14 Tage im slxt-Design (weather.slxt.org) – JavaScript · [live](https://weather.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nimbus/) |
 | 🌅 | **[zenit](https://github.com/slxt47/zenit)** | Zenit – Himmel je nach Tageszeit und Wetter, mit Uhr und Datum – JavaScript · [live](https://time.slxt.org) · [mehr](https://doc.slxt.dev/projekte/zenit/) |
 | ☁️ | **[nextcloud](https://github.com/slxt47/nextcloud)** | Selbst gehostete Nextcloud mit Datenbank, Redis, Cron und Collabora Online – Docker Compose |
 | 🛍️ | **[webshop](https://github.com/slxt47/webshop)** | Dienstleistungen buchen ohne Konto, Bezahlung in Krypto, PDF-Rechnungen – Express · PostgreSQL · [live](https://shop.slxt.org) · [mehr](https://doc.slxt.dev/projekte/webshop/) |
 | 🦾 | **[roboterarm](https://github.com/slxt47/roboterarm)** | 3D-gedruckter Roboterarm (EEZYbotARM MK2) mit Arduino und PS2-Gamepad – C++ |
-| 📄 | **[pdf_view](https://github.com/slxt47/pdf_view)** | Just a website to view PDF files – HTML |
-| 🌌 | **[nexus](https://github.com/slxt47/nexus)** | Eigenes Microblogging: Posts, Hashtags, DMs, live per SSE, hell/dunkel – React · Express · PostgreSQL · [live](https://nexus.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nexus/) |
 <!-- PROJEKTE:END -->
 
 <sub>Wird täglich automatisch aus meinen öffentlichen Repos erzeugt – das zuletzt geänderte steht oben.</sub>
