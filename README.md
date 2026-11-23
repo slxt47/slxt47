@@ -17,6 +17,7 @@ im selben Design: Himmel-Verlauf, Glas, Violett. Hier liegt der Code, die Geschi
 <!-- PROJEKTE:START -->
 | | Projekt | Worum es geht |
 |---|---|---|
+| 📦 | **[agora](https://github.com/slxt47/agora)** | Agora – Videokonferenzen im Browser (Zoom-Alternative), selbst gehostet mit LiveKit, im slxt-Design – JavaScript · [live](https://agora.slxt.dev) |
 | 📦 | **[command-center](https://github.com/slxt47/command-center)** | Linux-Server im Browser verwalten: Docker, VMs, Terminal mit Tabs, Gruppen & Rechte, Angriffs-Radar. Installation mit einer Zeile. – Python · [live](https://commandcenter.slxt.dev) |
 | 🌦️ | **[nimbus](https://github.com/slxt47/nimbus)** | Nimbus – Wetter jetzt, 24 Stunden und 14 Tage im slxt-Design (weather.slxt.org) – JavaScript · [live](https://weather.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nimbus/) |
 | 🌌 | **[nexus](https://github.com/slxt47/nexus)** | Eigenes Microblogging: Posts, Hashtags, DMs, live per SSE, hell/dunkel – React · Express · PostgreSQL · [live](https://nexus.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nexus/) |
@@ -28,7 +29,6 @@ im selben Design: Himmel-Verlauf, Glas, Violett. Hier liegt der Code, die Geschi
 | 🌅 | **[zenit](https://github.com/slxt47/zenit)** | Zenit – Himmel je nach Tageszeit und Wetter, mit Uhr und Datum – JavaScript · [live](https://time.slxt.org) · [mehr](https://doc.slxt.dev/projekte/zenit/) |
 | ☁️ | **[nextcloud](https://github.com/slxt47/nextcloud)** | Selbst gehostete Nextcloud mit Datenbank, Redis, Cron und Collabora Online – Docker Compose |
 | 🛍️ | **[webshop](https://github.com/slxt47/webshop)** | Dienstleistungen buchen ohne Konto, Bezahlung in Krypto, PDF-Rechnungen – Express · PostgreSQL · [live](https://shop.slxt.org) · [mehr](https://doc.slxt.dev/projekte/webshop/) |
-| 🦾 | **[roboterarm](https://github.com/slxt47/roboterarm)** | 3D-gedruckter Roboterarm (EEZYbotARM MK2) mit Arduino und PS2-Gamepad – C++ |
 <!-- PROJEKTE:END -->
 
 <sub>Wird täglich automatisch aus meinen öffentlichen Repos erzeugt – das zuletzt geänderte steht oben.</sub>
