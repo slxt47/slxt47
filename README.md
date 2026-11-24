@@ -17,7 +17,7 @@ im selben Design: Himmel-Verlauf, Glas, Violett. Hier liegt der Code, die Geschi
 <!-- PROJEKTE:START -->
 | | Projekt | Worum es geht |
 |---|---|---|
-| 📦 | **[agora](https://github.com/slxt47/agora)** | Agora – Videokonferenzen im Browser (Zoom-Alternative), selbst gehostet mit LiveKit, im slxt-Design – JavaScript · [live](https://agora.slxt.dev) |
+| 📦 | **[agora](https://github.com/slxt47/agora)** | Agora – Videokonferenzen im Browser (Zoom-Alternative), selbst gehostet mit LiveKit, im slxt-Design – Python · [live](https://agora.slxt.dev) |
 | 📦 | **[command-center](https://github.com/slxt47/command-center)** | Linux-Server im Browser verwalten: Docker, VMs, Terminal mit Tabs, Gruppen & Rechte, Angriffs-Radar. Installation mit einer Zeile. – Python · [live](https://commandcenter.slxt.dev) |
 | 🌦️ | **[nimbus](https://github.com/slxt47/nimbus)** | Nimbus – Wetter jetzt, 24 Stunden und 14 Tage im slxt-Design (weather.slxt.org) – JavaScript · [live](https://weather.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nimbus/) |
 | 🌌 | **[nexus](https://github.com/slxt47/nexus)** | Eigenes Microblogging: Posts, Hashtags, DMs, live per SSE, hell/dunkel – React · Express · PostgreSQL · [live](https://nexus.slxt.org) · [mehr](https://doc.slxt.dev/projekte/nexus/) |
